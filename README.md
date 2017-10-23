@@ -33,6 +33,7 @@ $ python apisrv.py
 
 Dev server work's on http://0.0.0.0:5000/
 
+## Tests
 In the other console, cd to tests folder:
 ```bash
 $ cd path_to_apisrv/tests/
