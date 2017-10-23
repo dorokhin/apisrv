@@ -56,7 +56,7 @@ class IntegrationTestsApiFunctionality(unittest.TestCase):
     def __init__(self, *a, **kw):
         super(IntegrationTestsApiFunctionality, self).__init__(*a, **kw)
         self.host = 'localhost'
-        self.url = 'http://{}/api/accounts'.format(self.host)
+        self.url = 'http://{}:5000/api/accounts'.format(self.host)
         self.supervisor = {'login': 'root', 'password': 'root'}
 
     def setUp(self):
